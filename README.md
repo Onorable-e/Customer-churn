@@ -1,4 +1,4 @@
-![Customer-Churn-Image](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/c51500cb-9d11-4b74-9292-81b4582e927a)
+![image](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/daeaa1bf-a64b-4068-bab8-d13a3f6d0e02)![Customer-Churn-Image](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/c51500cb-9d11-4b74-9292-81b4582e927a)
 
 This is a Capstone Project Report for my Data Analytics course at [Datafied Academy](https://github.com/Datafyde) - Data Heroes Cohort. <br>
 As a pivotal component of the course, this capstone project leverages data analytics techniques to explore factors influencing customer churn in the banking sector.
@@ -10,7 +10,7 @@ A bank is experiencing customer churn that is impacting overall customer satisfa
 # Dataset Overview
 The dataset contains information on 10,000 bank customers over six months. Each entry contains essential information like CustomerID, CreditScore, Geography, Gender, Tenure, Balance, and more.
 
-Data Source:
+Data Source: [Hotel Dataset](https://www.kaggle.com/code/kmalit/bank-customer-churn-prediction/data)
 
 # Project Objective 
 The objective of the project is to give a clear understanding of customer demographics, behaviors, and churn patterns, identify key features influencing customer churn, and provide strategic recommendations for the bank based on data-driven insights.
@@ -21,3 +21,11 @@ We also defined metrics and KPIs that will help answer the business questions. E
 - Churn rate <br>
 
 # Data Inspection
+
+# Data Cleaning 
+Some steps taken during the data cleaning are as follows:
+- The values 1 and 0 in the HasCrCard column were replaced with "Has CrCard" and "No CrCard" respectively. <br>
+- The values 1 and 0 in the IsActiveMember column were replaced with "Active" and "Not Active" respectively. <br>
+- The values 1 and 0 in the Churned column were replaced with "Churned" and "Retained" respectively. <br>
+- 
+
