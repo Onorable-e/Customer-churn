@@ -10,6 +10,21 @@ A bank is experiencing customer churn that is impacting overall customer satisfa
 # Dataset Overview
 The dataset contains information on 10,000 bank customers over six months. Each entry contains essential information like CustomerID, CreditScore, Geography, Gender, Tenure, Balance, and more.
 
+# Data Dictionary
+- CustomerId: Each customer has a specific identification called a CustomerId.
+- Surname: This serves as the client's last name. It is a categorical variable.
+- Credit Score: This is the customer's credit score, which measures their creditworthiness numerically. Since a customer with a better credit score is less likely to quit the bank, a higher credit score often implies a lower credit risk and can affect customer turnover.
+- Geography: This feature indicates the country of residence of the customer.
+- Gender: This feature represents the gender of the customer and can be either Male or Female.
+- Age: The customer's age, in years.
+- Tenure: The number of years that the consumer has been a bank client is shown by this characteristic.
+- Balance: The balance shows how much money is in their bank account.
+- NumOfProducts: This feature shows how many distinct banking products the client has with the bank. It accepts values between 1 and 4.
+- HasCrCard: This variable indicates if the client has a credit card on file with the bank. The binary variable has the values 0 for "No" and 1 for "Yes."
+- IsActiveMember: This feature indicates if the consumer is an active bank member. It's a binary variable once more, with 0 denoting "No" and 1 denoting "Yes."
+- EstimatedSalary: This field contains data about the client's earnings.
+- Churned: This variable tells us whether or not the consumer left (churned). The variable is binary, with 0 denoting "No" (the consumer stayed) and 1 denoting "Yes" (the customer left or "churned"). 
+
 Data Source: [Hotel Dataset](https://www.kaggle.com/code/kmalit/bank-customer-churn-prediction/data)
 
 # Project Objective 
@@ -20,8 +35,6 @@ We also defined metrics and KPIs that will help answer the business questions. E
 - Total customers <br>
 - Churn rate <br>
 - % retained
-
-# Data Inspection
 
 # Data Cleaning 
 Some steps taken during the data cleaning are as follows:
@@ -43,4 +56,11 @@ The insights were represented using appropriate chart formats (e.g., donut chart
 # Insights
 Some of the important insights and trends highlighted from the visuals created include:
 - The churned rate is about 20.4%.
-- Germany (39.92%) has the highest churned rate based on location. 
+- Germany (39.92%) has the highest churn rate based on location. 
+- Based on age group, middle age adults (40-59) have the highest churn rate.
+- Customers with one distinct banking product have the highest churn rate of about 69.17% compared to customers with two, three, and four.
+- About 898 and 1139 male and female customers respectively left (churned) the bank. 
+
+# Recommendations
+- The stakeholders should collect qualitative data using surveys to know specific reasons why customers are leaving.
+- Also, the stakeholders could consider creating products that target those in the old age (60+) category to avoid losing them.
