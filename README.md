@@ -10,7 +10,7 @@ A bank is experiencing customer churn that is impacting overall customer satisfa
 # Dataset Overview
 The dataset contains information on 10,000 bank customers over six months. Each entry contains essential information like CustomerID, CreditScore, Geography, Gender, Tenure, Balance, and more.
 
-# Data Dictionary
+## Data Dictionary
 - CustomerId: Each customer has a specific identification called a CustomerId.
 - Surname: This serves as the client's last name. It is a categorical variable.
 - Credit Score: This is the customer's credit score, which measures their creditworthiness numerically. Since a customer with a better credit score is less likely to quit the bank, a higher credit score often implies a lower credit risk and can affect customer turnover.
