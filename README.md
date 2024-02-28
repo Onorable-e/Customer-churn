@@ -19,6 +19,7 @@ The objective of the project is to give a clear understanding of customer demogr
 We also defined metrics and KPIs that will help answer the business questions. Examples include: <br>
 - Total customers <br>
 - Churn rate <br>
+- % retained
 
 # Data Inspection
 
@@ -27,5 +28,19 @@ Some steps taken during the data cleaning are as follows:
 - The values 1 and 0 in the HasCrCard column were replaced with "Has CrCard" and "No CrCard" respectively. <br>
 - The values 1 and 0 in the IsActiveMember column were replaced with "Active" and "Not Active" respectively. <br>
 - The values 1 and 0 in the Churned column were replaced with "Churned" and "Retained" respectively. <br>
-- 
+- A column titled Credit_Score_Group was created to group the credit score into; Poor (300-579); Fair (580-669); Good (670-739); Very Good (740-799) and Excellent (800-850) <br>.
+- An Age_Group column was also created to group the ages into; Young Adult (20-39); Middle Adult (40-59) and Old Age (60+). <br>
+- A Credit_Score_Sort and Age_Group_Sort columns were created on power query to use in sorting Credit_Score_Group and Age_Group when visualising. 
 
+## Dataset after cleaning
+![Dataset after cleaning](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/6cc9de39-a65f-4b22-81df-3575bc4b6f3d)
+
+# Visuals and Charts
+The insights were represented using appropriate chart formats (e.g., donut charts and bar charts). For more in-depth information, interactive elements including slicer options were employed.
+
+![Visual](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/48169d6f-964b-4a60-9e23-61570ca52256)
+
+# Insights
+Some of the important insights and trends highlighted from the visuals created include:
+- The churned rate is about 20.4%.
+- Germany (39.92%) has the highest churned rate based on location. 
