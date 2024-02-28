@@ -41,7 +41,7 @@ Some steps taken during the data cleaning are as follows:
 - The values 1 and 0 in the HasCrCard column were replaced with "Has CrCard" and "No CrCard" respectively. <br>
 - The values 1 and 0 in the IsActiveMember column were replaced with "Active" and "Not Active" respectively. <br>
 - The values 1 and 0 in the Churned column were replaced with "Churned" and "Retained" respectively. <br>
-- A column titled Credit_Score_Group was created to group the credit score into; Poor (300-579); Fair (580-669); Good (670-739); Very Good (740-799) and Excellent (800-850) <br>.
+- A column titled Credit_Score_Group was created to group the credit score into; Poor (300-579); Fair (580-669); Good (670-739); Very Good (740-799) and Excellent (800-850).
 - An Age_Group column was also created to group the ages into; Young Adult (20-39); Middle Adult (40-59) and Old Age (60+). <br>
 - A Credit_Score_Sort and Age_Group_Sort columns were created on power query to use in sorting Credit_Score_Group and Age_Group when visualising. 
 
