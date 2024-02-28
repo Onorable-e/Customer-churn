@@ -1,4 +1,4 @@
-![image](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/daeaa1bf-a64b-4068-bab8-d13a3f6d0e02)![Customer-Churn-Image](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/c51500cb-9d11-4b74-9292-81b4582e927a)
+![Customer-Churn-Image](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/5e174b4e-b5e3-4c54-a3e1-bcaa3ccba787)
 
 This is a Capstone Project Report for my Data Analytics course at [Datafied Academy](https://github.com/Datafyde) - Data Heroes Cohort. <br>
 As a pivotal component of the course, this capstone project leverages data analytics techniques to explore factors influencing customer churn in the banking sector.
