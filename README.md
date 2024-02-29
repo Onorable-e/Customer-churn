@@ -59,8 +59,9 @@ Some of the important insights and trends highlighted from the visuals created i
 - Germany (39.92%) has the highest churn rate based on location. 
 - Based on age group, middle age adults (40 - 59) have the highest churn rate.
 - Customers with one distinct banking product have the highest churn rate of about 69.17% compared to customers with two, three, and four.
-- About 898 and 1139 male and female customers respectively left (churned) the bank. 
+- About 898 and 1139 male and female customers, respectively, left (churned) the bank. 
 
 # Recommendations
 - The stakeholders should collect qualitative data using surveys to know specific reasons why customers are leaving.
+- Targeted ads should be created to attract customers with low credit scores.
 - Also, the stakeholders could consider creating products that target those in the old age (60+) category to avoid losing them.
