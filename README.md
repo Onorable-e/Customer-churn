@@ -65,3 +65,8 @@ Some of the important insights and trends highlighted from the visuals created i
 - The stakeholders should collect qualitative data using surveys to know specific reasons why customers are leaving.
 - Targeted ads should be created to attract customers with low credit scores.
 - Also, the stakeholders could consider creating products that target those in the old age (60+) category to avoid losing them.
+
+![Customers](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/7f43fdaa-ddd0-4293-be3d-303885bd2ee0)
+
+
+
