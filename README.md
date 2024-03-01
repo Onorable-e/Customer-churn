@@ -68,5 +68,8 @@ Some of the important insights and trends highlighted from the visuals created i
 
 ![Customers](https://github.com/Onorable-e/Customer-churn-analysis/assets/139487541/7f43fdaa-ddd0-4293-be3d-303885bd2ee0)
 
+# Data Analysis
+## Data Analysis
+### Data Analysis
 
 
